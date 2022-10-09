@@ -1,0 +1,213 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "reviews_new",
+        "_id": "Z6WnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1077",
+          "Age": "60",
+          "Title": "Some major design flaws",
+          "Review Text": "I had such high hopes for this dress and really wanted it to work for me. i initially ordered the petite small (my usual size) but i found this to be outrageously small. so small in fact that i could not zip it up! i reordered it in petite medium, which was just ok. overall, the top half was comfortable and fit nicely, but the bottom half had a very tight under layer and several somewhat cheap (net) over layers. imo, a major design flaw was the net over layer sewn directly into the zipper - it c",
+          "Rating": "3",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "aKWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "1049",
+          "Age": "50",
+          "Title": "My favorite buy!",
+          "Review Text": "I love, love, love this jumpsuit. it's fun, flirty, and fabulous! every time i wear it, i get nothing but great compliments!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General Petite",
+          "Department Name": "Bottoms",
+          "Class Name": "Pants"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "aaWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_source": {
+          "Clothing ID": "847",
+          "Age": "47",
+          "Title": "Flattering shirt",
+          "Review Text": "This shirt is very flattering to all due to the adjustable front tie. it is the perfect length to wear with leggings and it is sleeveless so it pairs well with any cardigan. love this shirt!!!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "6",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "bKWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "858",
+          "Age": "39",
+          "Title": "Shimmer, surprisingly goes with lots",
+          "Review Text": "I ordered this in carbon for store pick up, and had a ton of stuff (as always) to try on and used this top to pair (skirts and pants). everything went with it. the color is really nice charcoal with shimmer, and went well with pencil skirts, flare pants, etc. my only compaint is it is a bit big, sleeves are long and it doesn't go in petite. also a bit loose for me, but no xxs... so i kept it and wil ldecide later since the light color is already sold out in hte smallest size...",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "4",
+          "Division Name": "General Petite",
+          "Department Name": "Tops",
+          "Class Name": "Knits"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "b6WnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1077",
+          "Age": "53",
+          "Title": "Dress looks like it's made of cheap material",
+          "Review Text": "Dress runs small esp where the zipper area runs. i ordered the sp which typically fits me and it was very tight! the material on the top looks and feels very cheap that even just pulling on it will cause it to rip the fabric. pretty disappointed as it was going to be my christmas dress this year! needless to say it will be going back.",
+          "Rating": "3",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "14",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "dqWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "853",
+          "Age": "41",
+          "Title": "Looks great with white pants",
+          "Review Text": "Took a chance on this blouse and so glad i did. i wasn't crazy about how the blouse is photographed on the model. i paired it whit white pants and it worked perfectly. crisp and clean is how i would describe it. launders well. fits great. drape is perfect. wear tucked in or out - can't go wrong.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "eKWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "1077",
+          "Age": "47",
+          "Title": "Stylish and comfortable",
+          "Review Text": "I love the look and feel of this tulle dress. i was looking for something different, but not over the top for new year's eve. i'm small chested and the top of this dress is form fitting for a flattering look. once i steamed the tulle, it was perfect! i ordered an xsp. length was perfect too.",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Dresses",
+          "Class Name": "Dresses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "eaWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "847",
+          "Age": "33",
+          "Title": "Cute, crisp shirt",
+          "Review Text": "If this product was in petite, i would get the petite. the regular is a little long on me but a tailor can do a simple fix on that. \n\nfits nicely! i'm 5'4, 130lb and pregnant so i bough t medium to grow into. \n\nthe tie can be front or back so provides for some nice flexibility on form fitting.",
+          "Rating": "4",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "2",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "faWnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "847",
+          "Age": "55",
+          "Title": "Versatile",
+          "Review Text": "I love this shirt because when i first saw it, i wasn't sure if it was a shirt or dress. since it is see-through if you wear it like a dress you will need a slip or wear it with leggings. i bought a slip, wore the tie in the back, and rocked it with white wedges. you could also wear it as a vest. be careful with the buttons. i haven't had any fall off yet, but i feel like they will. overall it's great for any occasion and it's fun to wear!",
+          "Rating": "5",
+          "Recommended IND": "1",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Blouses"
+        }
+      },
+      {
+        "_index": "reviews_new",
+        "_id": "f6WnsoMB51CVl5prgMSr",
+        "_score": 1.0,
+        "_ignored": [
+          "Review Text.keyword"
+        ],
+        "_source": {
+          "Clothing ID": "949",
+          "Age": "33",
+          "Title": "Huge disappointment",
+          "Review Text": "I have been waiting for this sweater coat to ship for weeks and i was so excited for it to arrive. this coat is not true to size and made me look short and squat. the sleeves are very wide (although long). as a light weight fall coat the sleeves don't need to be as wide because you wouldn't be layerng too much underneath. the buttons need to be moved at least three inches in for a nicer fit. i thought about redoing the buttons myself but the sleeves looked even more out of proportion with a tigh",
+          "Rating": "2",
+          "Recommended IND": "0",
+          "Positive Feedback Count": "0",
+          "Division Name": "General",
+          "Department Name": "Tops",
+          "Class Name": "Sweaters"
+        }
+      }
+    ]
+  }
+}
