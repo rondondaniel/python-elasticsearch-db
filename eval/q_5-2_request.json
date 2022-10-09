@@ -1,0 +1,32 @@
+{
+  "size": 0,
+  "query": {
+    "bool": {
+      "must_not": [
+        {
+          "match": {
+            "Title.keyword": ""
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "Low_Ratings": {
+      "filter": {
+        "range": {
+          "Rating": {
+            "lte": 3
+          }
+        }
+      },
+      "aggs": {
+        "Most_Significant_Terms": {
+          "significant_terms": {
+            "field": "Title.keyword"
+          }
+        }
+      }
+    }
+  }
+}

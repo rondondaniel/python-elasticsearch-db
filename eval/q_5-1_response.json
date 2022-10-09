@@ -1,0 +1,89 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "High_Ratings": {
+      "doc_count": 15161,
+      "Most_Significant_Terms": {
+        "doc_count": 15161,
+        "bg_count": 23486,
+        "buckets": [
+          {
+            "key": "Love it!",
+            "doc_count": 136,
+            "score": 0.004925694300474424,
+            "bg_count": 136
+          },
+          {
+            "key": "Beautiful",
+            "doc_count": 95,
+            "score": 0.0034407423422431658,
+            "bg_count": 95
+          },
+          {
+            "key": "Love",
+            "doc_count": 88,
+            "score": 0.0031872139591305115,
+            "bg_count": 88
+          },
+          {
+            "key": "Love!",
+            "doc_count": 84,
+            "score": 0.0030423405973518517,
+            "bg_count": 84
+          },
+          {
+            "key": "Beautiful!",
+            "doc_count": 71,
+            "score": 0.0024707442469774125,
+            "bg_count": 72
+          },
+          {
+            "key": "Love it",
+            "doc_count": 59,
+            "score": 0.002136882086235229,
+            "bg_count": 59
+          },
+          {
+            "key": "Beautiful dress",
+            "doc_count": 59,
+            "score": 0.0020364079867811334,
+            "bg_count": 60
+          },
+          {
+            "key": "Gorgeous",
+            "doc_count": 53,
+            "score": 0.0019195720435672397,
+            "bg_count": 53
+          },
+          {
+            "key": "Love this dress!",
+            "doc_count": 53,
+            "score": 0.0019195720435672397,
+            "bg_count": 53
+          },
+          {
+            "key": "Perfect",
+            "doc_count": 49,
+            "score": 0.0017746986817885801,
+            "bg_count": 49
+          }
+        ]
+      }
+    }
+  }
+}

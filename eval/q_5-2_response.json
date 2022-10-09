@@ -1,0 +1,89 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "Low_Ratings": {
+      "doc_count": 4515,
+      "Most_Significant_Terms": {
+        "doc_count": 4515,
+        "bg_count": 23486,
+        "buckets": [
+          {
+            "key": "Disappointed",
+            "doc_count": 49,
+            "score": 0.04338676856476622,
+            "bg_count": 51
+          },
+          {
+            "key": "Disappointing",
+            "doc_count": 35,
+            "score": 0.032571874973172966,
+            "bg_count": 35
+          },
+          {
+            "key": "Poor quality",
+            "doc_count": 24,
+            "score": 0.022334999981604334,
+            "bg_count": 24
+          },
+          {
+            "key": "Not for me",
+            "doc_count": 29,
+            "score": 0.019764090532845845,
+            "bg_count": 37
+          },
+          {
+            "key": "Huge",
+            "doc_count": 23,
+            "score": 0.019284494529739068,
+            "bg_count": 25
+          },
+          {
+            "key": "Meh",
+            "doc_count": 19,
+            "score": 0.017681874985436757,
+            "bg_count": 19
+          },
+          {
+            "key": "Not as pictured",
+            "doc_count": 18,
+            "score": 0.016751249986203243,
+            "bg_count": 18
+          },
+          {
+            "key": "Boxy",
+            "doc_count": 16,
+            "score": 0.013805662160303099,
+            "bg_count": 17
+          },
+          {
+            "key": "Odd fit",
+            "doc_count": 16,
+            "score": 0.013805662160303099,
+            "bg_count": 17
+          },
+          {
+            "key": "Weird fit",
+            "doc_count": 14,
+            "score": 0.013028749989269188,
+            "bg_count": 14
+          }
+        ]
+      }
+    }
+  }
+}

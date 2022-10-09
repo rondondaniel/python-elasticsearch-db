@@ -1,0 +1,306 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "Products": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 1824,
+      "buckets": [
+        {
+          "key": "Dresses",
+          "doc_count": 6319,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 228
+              },
+              {
+                "key": 2.0,
+                "doc_count": 461
+              },
+              {
+                "key": 3.0,
+                "doc_count": 838
+              },
+              {
+                "key": 4.0,
+                "doc_count": 1395
+              },
+              {
+                "key": 5.0,
+                "doc_count": 3397
+              }
+            ]
+          }
+        },
+        {
+          "key": "Knits",
+          "doc_count": 4843,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 178
+              },
+              {
+                "key": 2.0,
+                "doc_count": 328
+              },
+              {
+                "key": 3.0,
+                "doc_count": 616
+              },
+              {
+                "key": 4.0,
+                "doc_count": 1132
+              },
+              {
+                "key": 5.0,
+                "doc_count": 2589
+              }
+            ]
+          }
+        },
+        {
+          "key": "Blouses",
+          "doc_count": 3097,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 119
+              },
+              {
+                "key": 2.0,
+                "doc_count": 229
+              },
+              {
+                "key": 3.0,
+                "doc_count": 394
+              },
+              {
+                "key": 4.0,
+                "doc_count": 669
+              },
+              {
+                "key": 5.0,
+                "doc_count": 1686
+              }
+            ]
+          }
+        },
+        {
+          "key": "Sweaters",
+          "doc_count": 1428,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 49
+              },
+              {
+                "key": 2.0,
+                "doc_count": 106
+              },
+              {
+                "key": 3.0,
+                "doc_count": 195
+              },
+              {
+                "key": 4.0,
+                "doc_count": 268
+              },
+              {
+                "key": 5.0,
+                "doc_count": 810
+              }
+            ]
+          }
+        },
+        {
+          "key": "Pants",
+          "doc_count": 1388,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 42
+              },
+              {
+                "key": 2.0,
+                "doc_count": 82
+              },
+              {
+                "key": 3.0,
+                "doc_count": 157
+              },
+              {
+                "key": 4.0,
+                "doc_count": 291
+              },
+              {
+                "key": 5.0,
+                "doc_count": 816
+              }
+            ]
+          }
+        },
+        {
+          "key": "Jeans",
+          "doc_count": 1147,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 30
+              },
+              {
+                "key": 2.0,
+                "doc_count": 55
+              },
+              {
+                "key": 3.0,
+                "doc_count": 115
+              },
+              {
+                "key": 4.0,
+                "doc_count": 218
+              },
+              {
+                "key": 5.0,
+                "doc_count": 729
+              }
+            ]
+          }
+        },
+        {
+          "key": "Fine gauge",
+          "doc_count": 1100,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 30
+              },
+              {
+                "key": 2.0,
+                "doc_count": 75
+              },
+              {
+                "key": 3.0,
+                "doc_count": 119
+              },
+              {
+                "key": 4.0,
+                "doc_count": 230
+              },
+              {
+                "key": 5.0,
+                "doc_count": 646
+              }
+            ]
+          }
+        },
+        {
+          "key": "Skirts",
+          "doc_count": 945,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 34
+              },
+              {
+                "key": 2.0,
+                "doc_count": 51
+              },
+              {
+                "key": 3.0,
+                "doc_count": 108
+              },
+              {
+                "key": 4.0,
+                "doc_count": 208
+              },
+              {
+                "key": 5.0,
+                "doc_count": 544
+              }
+            ]
+          }
+        },
+        {
+          "key": "Jackets",
+          "doc_count": 704,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 35
+              },
+              {
+                "key": 2.0,
+                "doc_count": 38
+              },
+              {
+                "key": 3.0,
+                "doc_count": 62
+              },
+              {
+                "key": 4.0,
+                "doc_count": 118
+              },
+              {
+                "key": 5.0,
+                "doc_count": 451
+              }
+            ]
+          }
+        },
+        {
+          "key": "Lounge",
+          "doc_count": 691,
+          "Histogram": {
+            "buckets": [
+              {
+                "key": 1.0,
+                "doc_count": 23
+              },
+              {
+                "key": 2.0,
+                "doc_count": 25
+              },
+              {
+                "key": 3.0,
+                "doc_count": 78
+              },
+              {
+                "key": 4.0,
+                "doc_count": 160
+              },
+              {
+                "key": 5.0,
+                "doc_count": 405
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

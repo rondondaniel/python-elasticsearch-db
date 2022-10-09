@@ -11,30 +11,22 @@ client = Elasticsearch(hosts = "http://@localhost:9200")
 
 # Préciser le numéro de votre question ici.
 # Si vous effectuez plusieurs requêtes pour la même question, écrivez "1-1", "1-2" ext...
-question_number = "2-5_2-6"
+question_number = "5-3_5_4"
 # Copier coller votre requête Kibana ici (SANS l'instruction GET)
-query = {
-  "size" : 0,
+query = { 
+  "size": 0,
   "aggs": {
-    "div": {
+    "Products": {
       "terms": {
-        "field": "Division Name.keyword",
+        "field": "Class Name.keyword",
         "size": 10
-      },
-      "aggs": {
-        "dep": {
-          "terms": {
-            "field": "Department Name.keyword",
-            "size": 10
-          }, 
-          "aggs": {
-            "prod": {
-              "terms": {
-                "field": "Class Name.keyword",
-                "size": 10
-              }
-            }
-          }
+    },
+    "aggs": {
+       "Histogram": {
+         "histogram": {
+           "field": "Rating",
+           "interval": 1
+         }
         }
       }
     }
