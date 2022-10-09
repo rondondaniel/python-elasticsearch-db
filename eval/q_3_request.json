@@ -1,0 +1,54 @@
+{
+  "size": 0,
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "Title.keyword": ""
+          }
+        },
+        {
+          "match": {
+            "Review Text.keyword": ""
+          }
+        },
+        {
+          "match": {
+            "Department Name.keyword": ""
+          }
+        },
+        {
+          "match": {
+            "Department Name.keyword": ""
+          }
+        },
+        {
+          "match": {
+            "Class Name.keyword": ""
+          }
+        },
+        {
+          "match": {
+            "Age": "-1"
+          }
+        },
+        {
+          "match": {
+            "Rating": "-1"
+          }
+        },
+        {
+          "match": {
+            "Recommended IND": "-1"
+          }
+        },
+        {
+          "match": {
+            "Positive Feedback Count": "-1"
+          }
+        }
+      ]
+    }
+  }
+}

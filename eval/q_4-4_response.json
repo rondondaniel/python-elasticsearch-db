@@ -1,0 +1,306 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "Class_Name_Age_Histo": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 1824,
+      "buckets": [
+        {
+          "key": "Dresses",
+          "doc_count": 6319,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 13
+              },
+              {
+                "key": 20.0,
+                "doc_count": 3101
+              },
+              {
+                "key": 40.0,
+                "doc_count": 2584
+              },
+              {
+                "key": 60.0,
+                "doc_count": 594
+              },
+              {
+                "key": 80.0,
+                "doc_count": 27
+              }
+            ]
+          }
+        },
+        {
+          "key": "Knits",
+          "doc_count": 4843,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 7
+              },
+              {
+                "key": 20.0,
+                "doc_count": 2108
+              },
+              {
+                "key": 40.0,
+                "doc_count": 2088
+              },
+              {
+                "key": 60.0,
+                "doc_count": 618
+              },
+              {
+                "key": 80.0,
+                "doc_count": 22
+              }
+            ]
+          }
+        },
+        {
+          "key": "Blouses",
+          "doc_count": 3097,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 4
+              },
+              {
+                "key": 20.0,
+                "doc_count": 1269
+              },
+              {
+                "key": 40.0,
+                "doc_count": 1413
+              },
+              {
+                "key": 60.0,
+                "doc_count": 399
+              },
+              {
+                "key": 80.0,
+                "doc_count": 12
+              }
+            ]
+          }
+        },
+        {
+          "key": "Sweaters",
+          "doc_count": 1428,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 2
+              },
+              {
+                "key": 20.0,
+                "doc_count": 571
+              },
+              {
+                "key": 40.0,
+                "doc_count": 641
+              },
+              {
+                "key": 60.0,
+                "doc_count": 202
+              },
+              {
+                "key": 80.0,
+                "doc_count": 12
+              }
+            ]
+          }
+        },
+        {
+          "key": "Pants",
+          "doc_count": 1388,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 2
+              },
+              {
+                "key": 20.0,
+                "doc_count": 571
+              },
+              {
+                "key": 40.0,
+                "doc_count": 644
+              },
+              {
+                "key": 60.0,
+                "doc_count": 167
+              },
+              {
+                "key": 80.0,
+                "doc_count": 4
+              }
+            ]
+          }
+        },
+        {
+          "key": "Jeans",
+          "doc_count": 1147,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 2
+              },
+              {
+                "key": 20.0,
+                "doc_count": 485
+              },
+              {
+                "key": 40.0,
+                "doc_count": 555
+              },
+              {
+                "key": 60.0,
+                "doc_count": 101
+              },
+              {
+                "key": 80.0,
+                "doc_count": 4
+              }
+            ]
+          }
+        },
+        {
+          "key": "Fine gauge",
+          "doc_count": 1100,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 1
+              },
+              {
+                "key": 20.0,
+                "doc_count": 423
+              },
+              {
+                "key": 40.0,
+                "doc_count": 525
+              },
+              {
+                "key": 60.0,
+                "doc_count": 144
+              },
+              {
+                "key": 80.0,
+                "doc_count": 7
+              }
+            ]
+          }
+        },
+        {
+          "key": "Skirts",
+          "doc_count": 945,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 3
+              },
+              {
+                "key": 20.0,
+                "doc_count": 453
+              },
+              {
+                "key": 40.0,
+                "doc_count": 387
+              },
+              {
+                "key": 60.0,
+                "doc_count": 100
+              },
+              {
+                "key": 80.0,
+                "doc_count": 2
+              }
+            ]
+          }
+        },
+        {
+          "key": "Jackets",
+          "doc_count": 704,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 1
+              },
+              {
+                "key": 20.0,
+                "doc_count": 319
+              },
+              {
+                "key": 40.0,
+                "doc_count": 279
+              },
+              {
+                "key": 60.0,
+                "doc_count": 102
+              },
+              {
+                "key": 80.0,
+                "doc_count": 3
+              }
+            ]
+          }
+        },
+        {
+          "key": "Lounge",
+          "doc_count": 691,
+          "Histo_Age_by_class": {
+            "buckets": [
+              {
+                "key": 0.0,
+                "doc_count": 1
+              },
+              {
+                "key": 20.0,
+                "doc_count": 335
+              },
+              {
+                "key": 40.0,
+                "doc_count": 280
+              },
+              {
+                "key": 60.0,
+                "doc_count": 70
+              },
+              {
+                "key": 80.0,
+                "doc_count": 5
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

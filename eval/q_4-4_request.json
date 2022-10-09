@@ -1,0 +1,19 @@
+{
+  "size": 0,
+  "aggs": {
+    "Class_Name_Age_Histo": {
+      "terms": {
+        "field": "Class Name.keyword",
+        "size": 10
+      },
+      "aggs": {
+        "Histo_Age_by_class": {
+          "histogram": {
+            "field": "Age",
+            "interval": 20
+          }
+        }
+      }
+    }
+  }
+}

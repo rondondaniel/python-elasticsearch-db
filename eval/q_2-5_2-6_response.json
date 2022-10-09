@@ -1,0 +1,328 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 2,
+    "successful": 2,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "div": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "General",
+          "doc_count": 13850,
+          "dep": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Tops",
+                "doc_count": 6837,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Knits",
+                      "doc_count": 3259
+                    },
+                    {
+                      "key": "Blouses",
+                      "doc_count": 1993
+                    },
+                    {
+                      "key": "Sweaters",
+                      "doc_count": 900
+                    },
+                    {
+                      "key": "Fine gauge",
+                      "doc_count": 685
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 3730,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Dresses",
+                      "doc_count": 3730
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bottoms",
+                "doc_count": 2542,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Pants",
+                      "doc_count": 835
+                    },
+                    {
+                      "key": "Jeans",
+                      "doc_count": 787
+                    },
+                    {
+                      "key": "Skirts",
+                      "doc_count": 601
+                    },
+                    {
+                      "key": "Shorts",
+                      "doc_count": 317
+                    },
+                    {
+                      "key": "Casual bottoms",
+                      "doc_count": 2
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Jackets",
+                "doc_count": 645,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Jackets",
+                      "doc_count": 397
+                    },
+                    {
+                      "key": "Outerwear",
+                      "doc_count": 248
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Trend",
+                "doc_count": 96,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Trend",
+                      "doc_count": 96
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "General Petite",
+          "doc_count": 8120,
+          "dep": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Tops",
+                "doc_count": 3631,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Knits",
+                      "doc_count": 1584
+                    },
+                    {
+                      "key": "Blouses",
+                      "doc_count": 1104
+                    },
+                    {
+                      "key": "Sweaters",
+                      "doc_count": 528
+                    },
+                    {
+                      "key": "Fine gauge",
+                      "doc_count": 415
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Dresses",
+                "doc_count": 2589,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Dresses",
+                      "doc_count": 2589
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bottoms",
+                "doc_count": 1257,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Pants",
+                      "doc_count": 553
+                    },
+                    {
+                      "key": "Jeans",
+                      "doc_count": 360
+                    },
+                    {
+                      "key": "Skirts",
+                      "doc_count": 344
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Jackets",
+                "doc_count": 387,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Jackets",
+                      "doc_count": 307
+                    },
+                    {
+                      "key": "Outerwear",
+                      "doc_count": 80
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Intimate",
+                "doc_count": 233,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Lounge",
+                      "doc_count": 233
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Trend",
+                "doc_count": 23,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Trend",
+                      "doc_count": 23
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Initmates",
+          "doc_count": 1502,
+          "dep": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Intimate",
+                "doc_count": 1502,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "Lounge",
+                      "doc_count": 458
+                    },
+                    {
+                      "key": "Swim",
+                      "doc_count": 350
+                    },
+                    {
+                      "key": "Sleep",
+                      "doc_count": 228
+                    },
+                    {
+                      "key": "Legwear",
+                      "doc_count": 165
+                    },
+                    {
+                      "key": "Intimates",
+                      "doc_count": 154
+                    },
+                    {
+                      "key": "Layering",
+                      "doc_count": 146
+                    },
+                    {
+                      "key": "Chemises",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "",
+          "doc_count": 14,
+          "dep": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "",
+                "doc_count": 14,
+                "prod": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "",
+                      "doc_count": 14
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

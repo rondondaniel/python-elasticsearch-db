@@ -1,5 +1,5 @@
 {
-  "took": 1,
+  "took": 9,
   "timed_out": false,
   "_shards": {
     "total": 2,
@@ -16,8 +16,13 @@
     "hits": []
   },
   "aggregations": {
-    "unique_division": {
-      "value": 4
+    "Avg_note": {
+      "value": 4.196031678446734
+    },
+    "Median_note": {
+      "values": {
+        "50.0": 5.0
+      }
     }
   }
 }

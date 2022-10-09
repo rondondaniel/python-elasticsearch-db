@@ -1,0 +1,23 @@
+{
+  "size": 0,
+  "aggs": {
+    "Stats_note": {
+      "stats": {
+        "field": "Rating"
+      }
+    },
+    "Stats_by_Class_Name": {
+      "terms": {
+        "field": "Class Name.keyword",
+        "size": 10
+      },
+      "aggs": {
+        "Stats": {
+          "stats": {
+            "field": "Rating"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "size": 0,
+  "aggs": {
+    "Avg_note": {
+      "avg": {
+        "field": "Rating"
+      }
+    },
+    "Median_note": {
+      "percentiles": {
+        "field": "Rating",
+        "percents": [
+          50
+        ]
+      }
+    }
+  }
+}

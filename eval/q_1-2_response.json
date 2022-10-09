@@ -15,7 +15,7 @@
     "max_score": 1.0,
     "hits": [
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "Z6WnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -35,7 +35,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "aKWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_source": {
@@ -52,7 +52,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "aaWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_source": {
@@ -69,7 +69,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "bKWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -89,7 +89,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "b6WnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -109,7 +109,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "dqWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -129,7 +129,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "eKWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -149,7 +149,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "eaWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -169,7 +169,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "faWnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
@@ -189,7 +189,7 @@
         }
       },
       {
-        "_index": "reviews_new",
+        "_index": "eval",
         "_id": "f6WnsoMB51CVl5prgMSr",
         "_score": 1.0,
         "_ignored": [
